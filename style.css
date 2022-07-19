@@ -131,6 +131,12 @@ color: #FFFFFF;
         width: 200px; 
         padding: 20px;
     }
+    .hero-text h1{
+        margin-bottom: 20px;
+    }
+    .hero-text p{
+        margin-bottom: 20px;
+    }
     h1{
         font-size: 20px;
         width: 200px;
@@ -142,6 +148,8 @@ color: #FFFFFF;
         justify-content: space-between;
         font-size: 25px;
         margin-top: -57px;
+        margin-left: 20px;
+        margin-right: 20px;
     }
     .logo-text{
         margin-right: 100px;
@@ -429,12 +437,12 @@ footer span{
         width: 420px;
     }
     footer h2{
-        margin-right: 70px;
+        margin-right: 50px;
     }
     footer p{
-        margin-right: 70px;
+        margin-right: 50px;
     }
     footer span{
-        margin-right: 70px;
+        margin-right: 50px;
     }
 }
