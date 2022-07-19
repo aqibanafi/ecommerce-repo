@@ -160,6 +160,89 @@ color: #FFFFFF;
         width: 250px;
     }
 }
+/* -----------------------------------  */
+@media screen and (min-width: 900px) and (max-width: 1500px) {
+    
+    
+    .hero{
+        flex-direction: column-reverse;
+        gap: 50px;
+    }
+    .hero-image img{
+        width: 500px;
+        height: 500px;
+    }
+    .hero-image{
+        background-image: none;
+        margin-bottom: 10px;
+    }
+    .hero-text{
+        width: 200px; 
+        padding: 10px;
+        
+    }
+    .hero-text h1{
+        margin-bottom: 10px;
+        margin-left: -150px;
+    }
+    .hero-text p{
+        margin-bottom: 10px;
+        margin-left: -150px;
+    }
+    .hero-text a{
+        margin-bottom: 10px;
+        margin-left: -150px;
+    }
+    h1{
+        font-size: 30px;
+        width: 500px;
+        line-height: 30px;
+        height: 56px;
+    }
+    .hero p{
+        font-size: 16px;
+        line-height: 20px;
+        width: 500px;
+    }
+    .brands{
+        position: absolute;
+        left: -10px;
+    }
+    .product-collection{
+        width: 100%;
+    }
+    footer{
+        width: 100%;
+    }
+}
+/* Responsive: Hero Section End  */
+
+
+.brands{
+    position: relative;
+    right: 90px;
+}
+.hr-first{
+    width: 1110px;
+    position: absolute;
+    left: 400px;
+    background: linear-gradient(to right, #808080, #FFFFFF);
+    height: 2px;
+}
+.hr-last{
+    width: 1110px;
+    position: absolute;
+    left: 400px;
+    background: linear-gradient(to right, #FFFFFF, #808080);
+    height: 2px;
+}
+.brand-names{
+    display: flex;
+    padding: 36px 62px;
+    gap: 50px;
+    justify-content: center;
+}
+
 /* Responsive: Hero Section End  */
 
 
@@ -194,6 +277,31 @@ color: #FFFFFF;
     }
     .brand-names{
         flex-direction: column;
+    }
+    .brands{
+        position: relative;
+        right: 10px;
+    }
+    .hero-text{
+        margin-right: 150px;
+        gap: 15px;
+    }
+    .hero img{
+        margin-right: 100px;
+    }
+}
+/* --------------------------------  */
+@media screen and (min-width: 900px) and (max-width: 1500px) {
+    .hr-first{
+        position: absolute;
+        left: 100px;
+    }
+    .hr-last{
+        position: absolute;
+        left: 100px; 
+    }
+    .brand-names{
+        flex-direction: row;
     }
     .brands{
         position: relative;
