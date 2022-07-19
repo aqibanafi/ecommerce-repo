@@ -132,10 +132,10 @@ color: #FFFFFF;
         padding: 20px;
     }
     .hero-text h1{
-        margin-bottom: 20px;
+        margin-bottom: 40px;
     }
     .hero-text p{
-        margin-bottom: 20px;
+        margin-bottom: 40px;
     }
     h1{
         font-size: 20px;
@@ -152,7 +152,7 @@ color: #FFFFFF;
         margin-right: 20px;
     }
     .logo-text{
-        margin-right: 100px;
+        margin-right: 80px;
     }
     .hero p{
         font-size: 12px;
